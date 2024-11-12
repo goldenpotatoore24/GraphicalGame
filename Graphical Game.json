@@ -63,7 +63,39 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "pixel-art-cute-black-cat-cartoon-character-2-png.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel-art-cute-black-cat-cartoon-character-2-png.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/monochrome_tilemap_transparent_packed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "monochrome_tilemap_transparent_packed.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Tilemaps/Pixel Art/7da13c10c28bc5ec3e8ceed7c1b980cf019b26e4a5ea7bba589be1b248f06b85_monochrome_tilemap_transparent_packed.png",
+          "name": "monochrome_tilemap_transparent_packed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "R (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "R (1).png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
