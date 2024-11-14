@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6406912462476531,
+    "zoomFactor": 0.2987985363606936,
     "windowMask": false
   },
   "objectsGroups": [
@@ -142,9 +142,9 @@
       "effects": [],
       "behaviors": [
         {
-          "maxSpeed": 600,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "maxSpeed": 600,
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -1722,11 +1722,11 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1000,
           "deceleration": 1000,
           "maxSpeed": 800,
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "gravity": 1000,
           "jumpSpeed": 500,
           "jumpSustainTime": 0.2,
@@ -3598,6 +3598,15 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Physics2",
+      "type": "Physics2::Physics2Behavior",
+      "gravityX": 0,
+      "gravityY": 9.8,
+      "worldScale": 100,
+      "scaleX": 100,
+      "scaleY": 100
     },
     {
       "name": "Platform",

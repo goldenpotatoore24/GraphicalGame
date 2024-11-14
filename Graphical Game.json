@@ -607,6 +607,24 @@
         "name": "row-1-column84.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Box.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Box",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
