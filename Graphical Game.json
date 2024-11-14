@@ -43,7 +43,7 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "watermark": {
@@ -66,15 +66,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "pixel-art-cute-black-cat-cartoon-character-2-png.webp",
-        "kind": "image",
-        "metadata": "",
-        "name": "pixel-art-cute-black-cat-cartoon-character-2-png.webp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/monochrome_tilemap_transparent_packed.png",
         "kind": "image",
         "metadata": "",
@@ -92,322 +83,7 @@
         "kind": "image",
         "metadata": "",
         "name": "R (1).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Cat-2-Idle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Cat-2-Idle.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column-2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column-3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column-4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column-5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column-6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column-7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column-8.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column-9.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column-10.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column8.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column9.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column10.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column11.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column12.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column13.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column14.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column15.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column16.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../../Downloads/PineTools.com_files 2/row-1-column-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../../../Downloads/PineTools.com_files 2/row-1-column-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column17.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column18.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column19.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column20.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column21.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column21.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column22.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column22.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -416,7 +92,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column23.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -425,7 +101,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column24.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -434,7 +110,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column25.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -443,7 +119,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column26.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -452,7 +128,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column-11.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -461,7 +137,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column-12.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -470,7 +146,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column-13.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -479,7 +155,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column-14.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -488,7 +164,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column27.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -497,7 +173,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column28.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -506,7 +182,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column29.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -515,7 +191,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column30.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -524,7 +200,7 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column31.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -533,123 +209,402 @@
         "kind": "image",
         "metadata": "",
         "name": "row-1-column32.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column54.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column55.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column56.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column57.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column58.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column59.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column60.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column61.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column62.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column63.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column64.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column65.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column65.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column66.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column67.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column67.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column68.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column68.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column69.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column69.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column70.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column70.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column71.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column71.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column72.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column73.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column73.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/press.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "press",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/press2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "press2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/press3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "press3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/press4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "press4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "row-1-column74.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "row-1-column74.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "row-1-column33.png",
+        "file": "row-1-column75.png",
         "kind": "image",
         "metadata": "",
-        "name": "row-1-column33.png",
+        "name": "row-1-column75.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "row-1-column34.png",
+        "file": "row-1-column76.png",
         "kind": "image",
         "metadata": "",
-        "name": "row-1-column34.png",
+        "name": "row-1-column76.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "row-1-column35.png",
+        "file": "row-1-column77.png",
         "kind": "image",
         "metadata": "",
-        "name": "row-1-column35.png",
+        "name": "row-1-column77.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "row-1-column36.png",
+        "file": "row-1-column78.png",
         "kind": "image",
         "metadata": "",
-        "name": "row-1-column36.png",
+        "name": "row-1-column78.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "row-1-column37.png",
+        "file": "row-1-column79.png",
         "kind": "image",
         "metadata": "",
-        "name": "row-1-column37.png",
+        "name": "row-1-column79.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "row-1-column38.png",
+        "file": "row-1-column80.png",
         "kind": "image",
         "metadata": "",
-        "name": "row-1-column38.png",
+        "name": "row-1-column80.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "row-1-column39.png",
+        "file": "row-1-column81.png",
         "kind": "image",
         "metadata": "",
-        "name": "row-1-column39.png",
+        "name": "row-1-column81.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "row-1-column40.png",
+        "file": "row-1-column82.png",
         "kind": "image",
         "metadata": "",
-        "name": "row-1-column40.png",
+        "name": "row-1-column82.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "row-1-column41.png",
+        "file": "row-1-column83.png",
         "kind": "image",
         "metadata": "",
-        "name": "row-1-column41.png",
+        "name": "row-1-column83.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "row-1-column42.png",
+        "file": "row-1-column84.png",
         "kind": "image",
         "metadata": "",
-        "name": "row-1-column42.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column43.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column43.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column44.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column44.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "row-1-column45.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "row-1-column45.png",
+        "name": "row-1-column84.png",
         "smoothed": true,
         "userAdded": false
       }
