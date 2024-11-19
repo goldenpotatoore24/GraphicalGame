@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3088741216342668,
+    "zoomFactor": 0.6622955665506458,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -95,15 +95,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 7,
-      "height": 359,
+      "depth": 9,
+      "height": 467,
       "keepRatio": true,
       "layer": "Players",
       "name": "DogPlayer",
       "persistentUuid": "5f522936-6b6c-47bd-8d8e-0cd8e293c421",
-      "width": 359,
+      "width": 467,
       "x": 309,
-      "y": 597,
+      "y": 489,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -161,6 +161,23 @@
           "value": 1
         }
       ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 28,
+      "height": 310,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Pot",
+      "persistentUuid": "297d8162-f3d4-478f-aecf-f5e5356543ad",
+      "width": 292,
+      "x": 486,
+      "y": 263,
+      "zOrder": 9,
+      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
@@ -296,10 +313,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -414,10 +431,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "Jumpthru",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Jumpthru",
           "yGrabOffset": 0
         }
       ],
@@ -472,6 +489,218 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Pot",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.6666666666666666,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 0,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 0,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 0,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 0,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 13
+                      },
+                      {
+                        "x": 0,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -488,6 +717,9 @@
       },
       {
         "objectName": "counter"
+      },
+      {
+        "objectName": "Pot"
       }
     ]
   },
