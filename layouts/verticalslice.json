@@ -500,10 +500,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -764,6 +764,19 @@
               "parameters": [
                 "DogPlayer",
                 "\"Players\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "press-start-trinity-main-version-24159-02-19.mp3",
+                "0",
+                "yes",
+                "15",
+                "1"
               ]
             }
           ]

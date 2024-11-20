@@ -787,6 +787,26 @@
         "name": "10.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "a-video-game-248444.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "a-video-game-248444.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "press-start-trinity-main-version-24159-02-19.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "press-start-trinity-main-version-24159-02-19.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
