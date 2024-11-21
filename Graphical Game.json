@@ -892,6 +892,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Living_Room_Template.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Living_Room_Template.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
