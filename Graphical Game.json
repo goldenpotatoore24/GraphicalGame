@@ -807,6 +807,33 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Placeholder_Sugar_Graphical_Game2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Placeholder_Sugar_Graphical_Game2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Shelf_Graphical_Game.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shelf_Graphical_Game.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wall.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
