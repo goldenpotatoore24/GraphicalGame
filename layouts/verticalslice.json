@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2890516203134955,
+    "zoomFactor": 0.31928945896902206,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -61,14 +61,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 24,
-      "height": 1080,
+      "height": 1087,
       "keepRatio": true,
       "layer": "",
       "name": "Scene",
       "persistentUuid": "e2e7d0ea-b3ab-4b96-a498-cd2a40af244a",
       "width": 5760,
       "x": 1,
-      "y": 4,
+      "y": -3,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -167,7 +167,7 @@
       "layer": "",
       "name": "floor",
       "persistentUuid": "ea870b8b-fc80-40f2-94f6-3feddb8ab4fa",
-      "width": 259,
+      "width": 266,
       "x": -259,
       "y": -2,
       "zOrder": 8,
@@ -207,8 +207,8 @@
       "name": "Sugar",
       "persistentUuid": "fce9bdc1-a6ab-48b3-b884-8137a5146365",
       "width": 287,
-      "x": 1302,
-      "y": 91,
+      "x": 2986,
+      "y": 57,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -224,8 +224,8 @@
       "name": "Shelf",
       "persistentUuid": "c8b7e142-215a-47a8-bf1a-274f9c5adb07",
       "width": 593,
-      "x": 1021,
-      "y": 290,
+      "x": 2697,
+      "y": 267,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -275,8 +275,8 @@
       "name": "bed1sprite",
       "persistentUuid": "b2387df1-1da5-4385-a3db-1442a260f4f2",
       "width": 337,
-      "x": 4724,
-      "y": 142,
+      "x": 4535,
+      "y": 127,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -295,6 +295,91 @@
       "x": 4103,
       "y": 857,
       "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "keepRatio": true,
+      "layer": "",
+      "name": "button",
+      "persistentUuid": "bd77d5a3-f2fb-4d40-b79f-32689d11f2ed",
+      "width": 219,
+      "x": 1517,
+      "y": 455,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 572,
+      "keepRatio": true,
+      "layer": "",
+      "name": "chairObstacle",
+      "persistentUuid": "78b2cd4b-bbbf-499f-80df-b80716ac686c",
+      "width": 551,
+      "x": 1956,
+      "y": 584,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 455,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Winning_Text",
+      "persistentUuid": "a32741cf-5b2d-40fb-82e9-535d2d5ae0d1",
+      "width": 956,
+      "x": 4122,
+      "y": 477,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 31,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bedCatHitbox",
+      "persistentUuid": "b5911fec-e25c-4ea5-a550-3bb8f200edae",
+      "width": 129,
+      "x": 4639,
+      "y": 274,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bedDogHitbox",
+      "persistentUuid": "f0954af9-8d31-4bce-befc-c0bb0159013c",
+      "width": 205,
+      "x": 4219,
+      "y": 968,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1137,6 +1222,149 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "chairObstacle",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fully-editable-pixel-art-vector-260nw-2159078413-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 74,
+                        "y": 40
+                      },
+                      {
+                        "x": 187,
+                        "y": 40
+                      },
+                      {
+                        "x": 187,
+                        "y": 221
+                      },
+                      {
+                        "x": 74,
+                        "y": 221
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Winning_Text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Stage completed!",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 55,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Stage completed!",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 55,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "bedCatHitbox",
+      "texture": "wall.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "bedDogHitbox",
+      "texture": "wall.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1164,13 +1392,28 @@
         "objectName": "Sugar"
       },
       {
+        "objectName": "chairObstacle"
+      },
+      {
         "objectName": "Shelf"
       },
       {
         "objectName": "bed1sprite"
       },
       {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "bedCatHitbox"
+      },
+      {
+        "objectName": "bedDogHitbox"
+      },
+      {
         "objectName": "bed2sprite"
+      },
+      {
+        "objectName": "Winning_Text"
       }
     ]
   },
@@ -1228,6 +1471,30 @@
                 "yes",
                 "15",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Winning_Text"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bedCatHitbox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bedDogHitbox"
               ]
             }
           ]
@@ -1977,6 +2244,15 @@
                     "=",
                     "\"press\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "chairObstacle",
+                    ""
+                  ]
                 }
               ]
             }
@@ -2032,6 +2308,13 @@
                 "True",
                 ""
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         },
@@ -2648,8 +2931,43 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "bedCatHitbox",
+            "CatPlayer",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "bedDogHitbox",
+            "DogPlayer",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Winning_Text",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -2796,6 +3114,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

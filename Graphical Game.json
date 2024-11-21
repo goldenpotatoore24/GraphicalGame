@@ -872,6 +872,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fully-editable-pixel-art-vector-260nw-2159078413-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fully-editable-pixel-art-vector-260nw-2159078413-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Pixel Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -3362,9 +3382,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "button"
-      },
-      {
         "objectName": "PetBed"
       },
       {
@@ -3375,6 +3392,9 @@
       },
       {
         "objectName": "middlePoint"
+      },
+      {
+        "objectName": "button"
       }
     ]
   },
