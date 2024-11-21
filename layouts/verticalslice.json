@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.21446078431372834,
+    "zoomFactor": 0.2890516203134955,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -252,15 +252,49 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1082,
+      "height": 1094,
       "keepRatio": true,
       "layer": "",
       "name": "Wall",
       "persistentUuid": "9a61b9b1-08eb-4ee4-9904-03808744be26",
-      "width": 135,
+      "width": 407,
       "x": 5400,
       "y": 2,
       "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 250,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bed1sprite",
+      "persistentUuid": "b2387df1-1da5-4385-a3db-1442a260f4f2",
+      "width": 337,
+      "x": 4724,
+      "y": 142,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 214,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bed2sprite",
+      "persistentUuid": "1087b214-24b2-4afd-88f0-6d3d8af03c16",
+      "width": 399,
+      "x": 4103,
+      "y": 857,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -797,10 +831,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -866,10 +900,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "Jumpthru",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Jumpthru",
           "yGrabOffset": 0
         }
       ],
@@ -983,6 +1017,126 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bed1sprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bed1sprite.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 38
+                      },
+                      {
+                        "x": 592,
+                        "y": 38
+                      },
+                      {
+                        "x": 592,
+                        "y": 341
+                      },
+                      {
+                        "x": 25,
+                        "y": 341
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bed2sprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bed2spritte.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21,
+                        "y": 37
+                      },
+                      {
+                        "x": 613,
+                        "y": 37
+                      },
+                      {
+                        "x": 613,
+                        "y": 339
+                      },
+                      {
+                        "x": 21,
+                        "y": 339
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1011,6 +1165,12 @@
       },
       {
         "objectName": "Shelf"
+      },
+      {
+        "objectName": "bed1sprite"
+      },
+      {
+        "objectName": "bed2sprite"
       }
     ]
   },
@@ -1138,6 +1298,33 @@
                   "parameters": [
                     "CatPlayer",
                     "PlatformerObject"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "arcade-game-jump-epic-stock-media-1-00-00.mp3",
+                        "",
+                        "10",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]

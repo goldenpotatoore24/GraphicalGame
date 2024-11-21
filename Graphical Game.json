@@ -834,6 +834,44 @@
         "name": "wall.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bed1sprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bed1sprite.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bed2spritte.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bed2spritte.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "arcade-game-jump-epic-stock-media-1-00-00.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "arcade-game-jump-epic-stock-media-1-00-00.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/arcade-game-jump-epic-stock-media-1-00-00.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\arcade-game-jump-epic-stock-media-1-00-00.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
