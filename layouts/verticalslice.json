@@ -3328,16 +3328,6 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "FlippableCapability::FlippableBehavior::FlippedX"
-              },
-              "parameters": [
-                "DogPlayer",
-                "Flippable"
-              ]
-            },
-            {
-              "type": {
                 "value": "BooleanVariable"
               },
               "parameters": [
@@ -3382,138 +3372,291 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "If the dog is not pushing object, it slowly comes to a stop starting from a speed of Dog_Last_Push_Speed, which was updated to the dog's speed last time it was pushing the sugar. (Checks that its not being pushed & that the angle of  object movement is to the right)"
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "PosX"
               },
               "parameters": [
-                "Sugar_Knocked_Down",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Sugar_Is_Being_Pushed",
-                "=",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsTotalForceAngleAround"
-              },
-              "parameters": [
-                "Sugar",
-                "0",
-                "5"
+                "DogPlayer",
+                "<",
+                "Sugar.X()"
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "AddForceXY"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                "Sugar",
-                "(Dog_Last_Push_Speed - 25)",
-                "0",
-                ""
+              "comment": "If the dog is not pushing object, it slowly comes to a stop starting from a speed of Dog_Last_Push_Speed, which was updated to the dog's speed last time it was pushing the sugar. (Checks that its not being pushed & that the angle of  object movement is to the right)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Sugar_Knocked_Down",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Sugar_Is_Being_Pushed",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dog_Last_Push_Speed",
+                    "-",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Sugar",
+                    "(Dog_Last_Push_Speed)",
+                    "0",
+                    ""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "SetNumberVariable"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                "Dog_Last_Push_Speed",
-                "-",
-                "25"
+              "comment": "If the dog is not pushing object & its angle of movement is going left (ie it has come to a stop and the forces applied to it are pushing it to the left) set the last push speed to 0 & remove all forces, as well as resets the Dog_Last_Push_Speed variable"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Sugar_Is_Being_Pushed",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Sugar_Knocked_Down",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsTotalForceAngleAround"
+                  },
+                  "parameters": [
+                    "Sugar",
+                    "180",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dog_Last_Push_Speed",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Sugar"
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "If the dog is not pushing object & its angle of movement is going left (ie it has come to a stop and the forces applied to it are pushing it to the left) set the last push speed to 0 & remove all forces, as well as resets the Dog_Last_Push_Speed variable"
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "PosX"
               },
               "parameters": [
-                "Sugar_Is_Being_Pushed",
-                "=",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Sugar_Knocked_Down",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsTotalForceAngleAround"
-              },
-              "parameters": [
-                "Sugar",
-                "180",
-                "5"
+                "DogPlayer",
+                ">",
+                "Sugar.X()"
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "SetNumberVariable"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                "Dog_Last_Push_Speed",
-                "=",
-                "0"
+              "comment": "If the dog is not pushing object, it slowly comes to a stop starting from a speed of Dog_Last_Push_Speed, which was updated to the dog's speed last time it was pushing the sugar. (Checks that its not being pushed & that the angle of  object movement is to the right)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Sugar_Knocked_Down",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Sugar_Is_Being_Pushed",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dog_Last_Push_Speed",
+                    "+",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Sugar",
+                    "(Dog_Last_Push_Speed)",
+                    "0",
+                    ""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "Arreter"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                "Sugar"
+              "comment": "If the dog is not pushing object & its angle of movement is going left (ie it has come to a stop and the forces applied to it are pushing it to the left) set the last push speed to 0 & remove all forces, as well as resets the Dog_Last_Push_Speed variable"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Sugar_Knocked_Down",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Sugar_Is_Being_Pushed",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsTotalForceAngleAround"
+                  },
+                  "parameters": [
+                    "Sugar",
+                    "0",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dog_Last_Push_Speed",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Sugar"
+                  ]
+                }
               ]
             }
           ]
@@ -3702,6 +3845,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Water Push Code",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3815,6 +3959,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Menu Code",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
