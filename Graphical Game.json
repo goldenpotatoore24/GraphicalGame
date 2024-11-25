@@ -1138,6 +1138,15 @@
         "name": "NewTiledSprite3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dr_Pepper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dr_Pepper.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
