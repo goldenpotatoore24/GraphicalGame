@@ -1147,6 +1147,15 @@
         "name": "Dr_Pepper.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Kitchen2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Kitchen2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
