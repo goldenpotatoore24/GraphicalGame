@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.35269049347713016,
+    "zoomFactor": 0.22169247275005652,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -66,7 +66,7 @@
       "layer": "",
       "name": "Scene",
       "persistentUuid": "e2e7d0ea-b3ab-4b96-a498-cd2a40af244a",
-      "width": 5760,
+      "width": 5048,
       "x": 1,
       "y": -3,
       "zOrder": 2,
@@ -83,7 +83,7 @@
       "layer": "",
       "name": "floor",
       "persistentUuid": "086bb7ab-a7f8-4d31-b271-e24c5c38caa5",
-      "width": 5760,
+      "width": 7264,
       "x": 0,
       "y": 975,
       "zOrder": 3,
@@ -241,60 +241,9 @@
       "name": "Shelf",
       "persistentUuid": "d135b8b2-e6fa-4ed1-bc6b-bd413abb170b",
       "width": 779,
-      "x": 4388,
-      "y": 298,
+      "x": 4270,
+      "y": 287,
       "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1094,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "9a61b9b1-08eb-4ee4-9904-03808744be26",
-      "width": 407,
-      "x": 5400,
-      "y": 2,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 250,
-      "keepRatio": true,
-      "layer": "",
-      "name": "bed1sprite",
-      "persistentUuid": "b2387df1-1da5-4385-a3db-1442a260f4f2",
-      "width": 337,
-      "x": 4535,
-      "y": 127,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 214,
-      "keepRatio": true,
-      "layer": "",
-      "name": "bed2sprite",
-      "persistentUuid": "1087b214-24b2-4afd-88f0-6d3d8af03c16",
-      "width": 399,
-      "x": 4103,
-      "y": 857,
-      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -337,14 +286,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 455,
+      "height": 211,
       "keepRatio": true,
       "layer": "",
-      "name": "Winning_Text",
-      "persistentUuid": "a32741cf-5b2d-40fb-82e9-535d2d5ae0d1",
-      "width": 956,
-      "x": 4122,
-      "y": 477,
+      "name": "keyHallway",
+      "persistentUuid": "20ea5471-b837-44d2-a01b-0446fac692df",
+      "width": 182,
+      "x": 4466,
+      "y": 65,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -354,15 +303,32 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 31,
+      "height": 1426,
       "keepRatio": true,
       "layer": "",
-      "name": "bedCatHitbox",
-      "persistentUuid": "b5911fec-e25c-4ea5-a550-3bb8f200edae",
-      "width": 129,
-      "x": 4643,
-      "y": 163,
-      "zOrder": 18,
+      "name": "shadedArea",
+      "persistentUuid": "aabde1fb-35ee-46ca-b6dd-c81930e712dc",
+      "width": 2362,
+      "x": 5121,
+      "y": -315,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1081,
+      "keepRatio": true,
+      "layer": "",
+      "name": "wallHallway",
+      "persistentUuid": "dc34ab08-7463-4652-bff3-855096ee5e03",
+      "width": 114,
+      "x": 5033,
+      "y": -1,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -374,12 +340,12 @@
       "height": 32,
       "keepRatio": true,
       "layer": "",
-      "name": "bedDogHitbox",
-      "persistentUuid": "f0954af9-8d31-4bce-befc-c0bb0159013c",
-      "width": 205,
-      "x": 4219,
-      "y": 968,
-      "zOrder": 19,
+      "name": "keyHallwayHitbox",
+      "persistentUuid": "0107a934-cd74-4c0c-98f2-d31cbf117005",
+      "width": 116,
+      "x": 4495,
+      "y": 107,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1053,10 +1019,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -1342,17 +1308,6 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
       "assetStoreId": "",
       "height": 32,
       "name": "bedCatHitbox",
@@ -1373,6 +1328,164 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "keyHallway",
+      "texture": "key___pixel_art_by_senpainevernotices_daqffdm-fullview-removebg-preview (2).png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "shadedArea",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "000000.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 480,
+                        "y": 0
+                      },
+                      {
+                        "x": 480,
+                        "y": 480
+                      },
+                      {
+                        "x": 0,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "wallHallway",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "wall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "keyHallwayHitbox",
+      "texture": "wall.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1386,6 +1499,12 @@
       },
       {
         "objectName": "Wall"
+      },
+      {
+        "objectName": "wallHallway"
+      },
+      {
+        "objectName": "shadedArea"
       },
       {
         "objectName": "floor"
@@ -1409,10 +1528,10 @@
         "objectName": "bed1sprite"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "bedCatHitbox"
       },
       {
-        "objectName": "bedCatHitbox"
+        "objectName": "keyHallwayHitbox"
       },
       {
         "objectName": "bedDogHitbox"
@@ -1422,6 +1541,9 @@
       },
       {
         "objectName": "Winning_Text"
+      },
+      {
+        "objectName": "keyHallway"
       }
     ]
   },
@@ -1486,14 +1608,6 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Winning_Text"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
                 "bedCatHitbox"
               ]
             },
@@ -1503,6 +1617,14 @@
               },
               "parameters": [
                 "bedDogHitbox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "keyHallwayHitbox"
               ]
             }
           ]
@@ -2911,14 +3033,34 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Sugar",
-                "Wall",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Sugar",
+                    "wallHallway",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Sugar",
+                    "Wall",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
@@ -2971,6 +3113,60 @@
           },
           "parameters": [
             "Winning_Text",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "keyHallwayHitbox",
+            "CatPlayer",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "shadedArea",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "wallHallway",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "keyHallway"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Sugar",
             ""
           ]
         }

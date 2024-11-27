@@ -892,6 +892,78 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Default2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pngimg.com - cursor_PNG100720.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pngimg.com - cursor_PNG100720.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "vecteezy_mouse-cursor-symbol-on-transparent-background_17178335.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vecteezy_mouse-cursor-symbol-on-transparent-background_17178335.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "long button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "long button.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "key___pixel_art_by_senpainevernotices_daqffdm-fullview-removebg-preview (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "key___pixel_art_by_senpainevernotices_daqffdm-fullview-removebg-preview (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "charcoal-black-painted-swatch-300x300.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "charcoal-black-painted-swatch-300x300.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "000000.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "000000.png.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3415,11 +3487,20 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/startingscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/verticalslice"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousehelper"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
