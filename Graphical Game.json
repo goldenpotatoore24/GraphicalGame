@@ -895,74 +895,266 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Default.png",
+        "file": "Living_Room_Template.png",
         "kind": "image",
         "metadata": "",
-        "name": "Default.png",
+        "name": "Living_Room_Template.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dog_Door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Door.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cat_Door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat_Door.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Glass_Of_Water.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Glass_Of_Water.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
+          "name": "Yellow Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
+          "name": "Yellow Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
+          "name": "Yellow Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_13.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pulley_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pulley_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Living_Room_Template.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Living_Room_Template",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Living_Room_Template2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Living_Room_Template2.png\"}",
+        "name": "Living_Room_Template2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "Default2.png",
+        "file": "assets/NewTiledSprite2.png",
         "kind": "image",
-        "metadata": "",
-        "name": "Default2.png",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "pngimg.com - cursor_PNG100720.png",
+        "file": "assets/NewTiledSprite3.png",
         "kind": "image",
-        "metadata": "",
-        "name": "pngimg.com - cursor_PNG100720.png",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "vecteezy_mouse-cursor-symbol-on-transparent-background_17178335.png",
+        "file": "Dr_Pepper.png",
         "kind": "image",
         "metadata": "",
-        "name": "vecteezy_mouse-cursor-symbol-on-transparent-background_17178335.png",
-        "smoothed": true,
+        "name": "Dr_Pepper.png",
+        "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "long button.png",
+        "file": "Kitchen2.png",
         "kind": "image",
         "metadata": "",
-        "name": "long button.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "key___pixel_art_by_senpainevernotices_daqffdm-fullview-removebg-preview (2).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "key___pixel_art_by_senpainevernotices_daqffdm-fullview-removebg-preview (2).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "charcoal-black-painted-swatch-300x300.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "charcoal-black-painted-swatch-300x300.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "000000.png.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "000000.png.png",
-        "smoothed": true,
+        "name": "Kitchen2.png",
+        "smoothed": false,
         "userAdded": false
       }
     ],
@@ -3487,10 +3679,6 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/startingscreen"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/verticalslice"
     }
   ],
@@ -3498,7 +3686,7 @@
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/mousehelper"
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
     }
   ],
   "externalLayouts": [],
