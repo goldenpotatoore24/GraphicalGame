@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "StartScreen",
   "gdVersion": {
     "build": 218,
     "major": 5,
@@ -1155,6 +1155,168 @@
         "metadata": "",
         "name": "Kitchen2.png",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixel-art-wooden-buttons-for-game-and-app-interface-icon-for-8bit-game-on-white-background-vector-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel-art-wooden-buttons-for-game-and-app-interface-icon-for-8bit-game-on-white-background-vector-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "vecteezy_mouse-cursor-symbol-on-transparent-background_17178336.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vecteezy_mouse-cursor-symbol-on-transparent-background_17178336.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/pixel-art-wooden-buttons-for-game-and-app-interface-icon-for-8bit-game-on-white-background-vector-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\pixel-art-wooden-buttons-for-game-and-app-interface-icon-for-8bit-game-on-white-background-vector-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "long button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "long button2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TH-Aquarelle_Wall_HFS-Stone_Light_Grey.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "TH-Aquarelle_Wall_HFS-Stone_Light_Grey.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/pixel-art-bookshelf-for-game-assets-and-development-vector.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\pixel-art-bookshelf-for-game-assets-and-development-vector.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixel-art-bookshelf-for-game-assets-and-development-vector-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel-art-bookshelf-for-game-assets-and-development-vector-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixel-art-bookshelf-for-game-assets-and-development-vector-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixel-art-bookshelf-for-game-assets-and-development-vector-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sublevelWall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sublevelWall.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "000000.png2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "000000.png2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "000000.png3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "000000.png3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "000000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "000000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "key___pixel_art_by_senpainevernotices_daqffdm-fullview-removebg-preview (2)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "key___pixel_art_by_senpainevernotices_daqffdm-fullview-removebg-preview (2)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../桌面/openedDoor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\桌面\\openedDoor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "closedDoor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "closedDoor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "openedDoor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "openedDoor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "openedDoor2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "openedDoor2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "EFXSes9UCfsyRVoNeQ2ZTB-1200-80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EFXSes9UCfsyRVoNeQ2ZTB-1200-80.png",
+        "smoothed": true,
         "userAdded": false
       }
     ],
@@ -3640,6 +3802,385 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "button2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Pressed",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "button1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 22
+                      },
+                      {
+                        "x": 23,
+                        "y": 22
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "press",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "press",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 22
+                      },
+                      {
+                        "x": 23,
+                        "y": 22
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "press2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 22
+                      },
+                      {
+                        "x": 23,
+                        "y": 22
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "press3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 22
+                      },
+                      {
+                        "x": 23,
+                        "y": 22
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "press4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 22
+                      },
+                      {
+                        "x": 23,
+                        "y": 22
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "unpress",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "button6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 22
+                      },
+                      {
+                        "x": 23,
+                        "y": 22
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "button7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 22
+                      },
+                      {
+                        "x": 23,
+                        "y": 22
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "button8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 22
+                      },
+                      {
+                        "x": 23,
+                        "y": 22
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "button9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 22
+                      },
+                      {
+                        "x": 23,
+                        "y": 22
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3659,6 +4200,9 @@
       },
       {
         "objectName": "button"
+      },
+      {
+        "objectName": "button2"
       }
     ]
   },
@@ -3675,8 +4219,18 @@
       ]
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "name": "freeFollowCamera",
+      "type": "boolean",
+      "value": true
+    }
+  ],
   "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/startscreen"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/verticalslice"
@@ -3684,6 +4238,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousehelper"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"

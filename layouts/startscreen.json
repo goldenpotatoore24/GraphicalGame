@@ -1,13 +1,13 @@
 {
-  "b": 175,
+  "b": 156,
   "disableInputWhenNotFocused": true,
-  "mangledName": "StartingScreen",
-  "name": "StartingScreen",
-  "r": 212,
+  "mangledName": "StartScreen",
+  "name": "StartScreen",
+  "r": 190,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 204,
+  "v": 184,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.45985214267363317,
+    "zoomFactor": 0.3645833333333333,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,31 +28,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 25,
+      "height": 40,
       "keepRatio": true,
       "layer": "",
       "name": "Cursor",
-      "persistentUuid": "3dbba6f1-e1dc-4541-8ca4-89012fff4390",
-      "width": 25,
-      "x": 1243,
-      "y": 577,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 299,
-      "keepRatio": true,
-      "layer": "",
-      "name": "playButton",
-      "persistentUuid": "6e9b1888-01a0-4ab2-84cf-d3eaab5eb83e",
-      "width": 544,
-      "x": 740,
-      "y": 482,
+      "persistentUuid": "fb803490-b82b-422c-a36c-4d9c29bdd8b1",
+      "width": 40,
+      "x": 1599,
+      "y": 548,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -62,15 +45,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 128,
+      "height": 331,
       "keepRatio": true,
       "layer": "",
-      "name": "playText",
-      "persistentUuid": "46ac8789-a394-4690-84c2-98a1036f9721",
-      "width": 262,
-      "x": 888,
-      "y": 566,
-      "zOrder": 4,
+      "name": "playButton",
+      "persistentUuid": "d3e0aff7-d9c0-4f49-a04c-d3e16c7a6a11",
+      "width": 601,
+      "x": 700,
+      "y": 555,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -79,49 +62,49 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 247,
+      "height": 152,
       "keepRatio": true,
       "layer": "",
-      "name": "GameTitle",
-      "persistentUuid": "1b4308d0-46f5-4bc3-a817-def0698ab69e",
-      "width": 1042,
-      "x": 481,
-      "y": 178,
+      "name": "startButtonText",
+      "persistentUuid": "aadb8a82-64fa-4842-a85c-5f673aa23d3c",
+      "width": 308,
+      "x": 890,
+      "y": 679,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 208,
+      "customSize": true,
+      "depth": 1,
+      "height": 591,
+      "keepRatio": true,
+      "layer": "",
+      "name": "catBackground",
+      "persistentUuid": "4faa57b7-0543-4e94-a73f-d54c0e39ee55",
+      "width": 751,
+      "x": 1217,
+      "y": -1,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 226,
+      "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 630,
-      "keepRatio": true,
-      "layer": "",
-      "name": "catBackground",
-      "persistentUuid": "ad22b1b6-60ce-4c80-979a-b7c5aab0e160",
-      "width": 676,
-      "x": 1240,
-      "y": -17,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 360,
-      "customSize": true,
-      "depth": 1,
-      "height": 669,
+      "height": 685,
       "keepRatio": true,
       "layer": "",
       "name": "dogBackground",
-      "persistentUuid": "13317a92-371d-42a7-b781-b51e8a695f37",
-      "width": 685,
-      "x": 41,
-      "y": 413,
-      "zOrder": 7,
+      "persistentUuid": "1e74ef8a-b9ba-4825-8a78-8ced106b5fe9",
+      "width": 802,
+      "x": -7,
+      "y": 401,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -153,7 +136,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "vecteezy_mouse-cursor-symbol-on-transparent-background_17178335.png",
+                  "image": "vecteezy_mouse-cursor-symbol-on-transparent-background_17178336.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -194,31 +177,80 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "height": 32,
       "name": "playButton",
-      "texture": "long button.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "long button2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 15
+                      },
+                      {
+                        "x": 531,
+                        "y": 15
+                      },
+                      {
+                        "x": 531,
+                        "y": 287
+                      },
+                      {
+                        "x": 14,
+                        "y": 287
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "playText",
+      "name": "startButtonText",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Play",
+      "string": "Start",
       "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
       "textAlignment": "left",
-      "characterSize": 90,
+      "characterSize": 60,
       "color": {
         "b": 0,
         "g": 0,
@@ -238,53 +270,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Play",
+        "text": "Start",
         "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 90,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "GameTitle",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 60,
         "color": "0;0;0"
       }
     },
@@ -368,7 +358,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "row-1-column76.png",
+                  "image": "row-1-column75.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -419,10 +409,7 @@
         "objectName": "playButton"
       },
       {
-        "objectName": "playText"
-      },
-      {
-        "objectName": "GameTitle"
+        "objectName": "startButtonText"
       },
       {
         "objectName": "catBackground"
