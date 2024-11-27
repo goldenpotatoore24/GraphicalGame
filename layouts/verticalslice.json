@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.16448391304938428,
+    "zoomFactor": 0.10001786170017596,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -869,14 +869,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1907,
+      "height": 2004,
       "keepRatio": true,
       "layer": "",
       "name": "hallwayBackground",
       "persistentUuid": "435cf791-ae6a-49cc-aa4f-51dcb35ed930",
-      "width": 7020,
+      "width": 5503,
       "x": 11393,
-      "y": -927,
+      "y": -1024,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -926,8 +926,8 @@
       "name": "bookshelf",
       "persistentUuid": "90f4e9c0-3f51-46e3-83e5-2cb314e74c98",
       "width": 1290,
-      "x": 17197,
-      "y": -309,
+      "x": 15520,
+      "y": -298,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -943,8 +943,8 @@
       "name": "bookshelfObject",
       "persistentUuid": "22ac01a9-aef3-488d-8a2e-dbc9683db046",
       "width": 749,
-      "x": 17452,
-      "y": 8,
+      "x": 15791,
+      "y": 13,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -959,7 +959,7 @@
       "layer": "",
       "name": "floor",
       "persistentUuid": "eaefd55d-bf51-4ff7-9899-2af3b29b4717",
-      "width": 5650,
+      "width": 4149,
       "x": 12651,
       "y": 974,
       "zOrder": 11,
@@ -977,8 +977,8 @@
       "name": "Wall",
       "persistentUuid": "a6fde324-9c68-457d-82c7-a8b06977560e",
       "width": 159,
-      "x": 18290,
-      "y": -975,
+      "x": 16793,
+      "y": -1034,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -994,8 +994,8 @@
       "name": "button2",
       "persistentUuid": "b64b84be-a534-4b0a-bfb0-18ddae7b38eb",
       "width": 305,
-      "x": 16933,
-      "y": 843,
+      "x": 15190,
+      "y": 838,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -1010,8 +1010,8 @@
       "name": "key",
       "persistentUuid": "4bc9b81e-b0c7-42c2-bc6f-b1eaf902a14c",
       "width": 0,
-      "x": 17760,
-      "y": -298,
+      "x": 13628,
+      "y": -55,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -1021,14 +1021,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1232,
+      "height": 818,
       "keepRatio": true,
       "layer": "",
       "name": "doorBackground",
       "persistentUuid": "a091e1a7-4046-4178-b14b-218f3457ed65",
-      "width": 892,
-      "x": 12501,
-      "y": -197,
+      "width": 509,
+      "x": 11944,
+      "y": 193,
       "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
@@ -1038,15 +1038,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 759,
+      "height": 109,
       "keepRatio": true,
       "layer": "",
-      "name": "hallwayDeco",
-      "persistentUuid": "5e0db6d4-6262-45cc-8cf2-dbdc512d8626",
-      "width": 1272,
-      "x": 14022,
-      "y": -574,
-      "zOrder": 48,
+      "name": "loweredPlatform",
+      "persistentUuid": "7b294b72-1edb-49ca-84fa-28b114ec5624",
+      "width": 794,
+      "x": 14704,
+      "y": -1079,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1055,15 +1055,185 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 163,
+      "height": 2668,
       "keepRatio": true,
       "layer": "",
-      "name": "loweredPlatform",
-      "persistentUuid": "7b294b72-1edb-49ca-84fa-28b114ec5624",
-      "width": 1104,
-      "x": 16056,
-      "y": -1097,
-      "zOrder": 49,
+      "name": "blackFog",
+      "persistentUuid": "adfb21a3-9d06-4910-bdf5-3aa009ea98d2",
+      "width": 2369,
+      "x": 16940,
+      "y": -1016,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 583,
+      "keepRatio": true,
+      "layer": "",
+      "name": "blackFog",
+      "persistentUuid": "01b2cbf6-713b-45a3-8317-0c9754fc6a11",
+      "width": 9609,
+      "x": 8852,
+      "y": 1075,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 842,
+      "keepRatio": true,
+      "layer": "",
+      "name": "painting",
+      "persistentUuid": "5baa8662-c349-4ce3-a3f5-f8ae58f0cdcb",
+      "width": 967,
+      "x": 13464,
+      "y": -509,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 153,
+      "keepRatio": true,
+      "layer": "",
+      "name": "paperScroll",
+      "persistentUuid": "c53d712c-2a43-4638-af21-cbdfd79df70a",
+      "width": 154,
+      "x": 16272,
+      "y": -173,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 258,
+      "keepRatio": true,
+      "layer": "",
+      "name": "paperTip",
+      "persistentUuid": "014b9710-81b5-4a69-9764-c45b48deca1a",
+      "width": 730,
+      "x": 14760,
+      "y": -7,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 624,
+      "keepRatio": true,
+      "layer": "",
+      "name": "doorhitbox",
+      "persistentUuid": "f965990f-c531-40db-96b9-7b0a4b3e53a9",
+      "width": 193,
+      "x": 12093,
+      "y": 371,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 150,
+      "keepRatio": true,
+      "layer": "",
+      "name": "floor",
+      "persistentUuid": "7a06442e-a27b-4c7f-a113-97888078a6c2",
+      "width": 6525,
+      "x": 19324,
+      "y": 974,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3308,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "38d51a49-63a4-421d-a2bd-2d84886ba2e0",
+      "width": 179,
+      "x": 19272,
+      "y": -2192,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "0d803572-0faf-483d-a8e6-53e3fe0d9c40",
+      "width": 179,
+      "x": 25770,
+      "y": -2105,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 818,
+      "keepRatio": true,
+      "layer": "",
+      "name": "doorBackground",
+      "persistentUuid": "8cf5f5f8-4ebd-4b3c-8491-7658946e6520",
+      "width": 509,
+      "x": 19956,
+      "y": 192,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3214,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bedroomWallpaper",
+      "persistentUuid": "b3952d8b-0747-4f96-95c3-e1256a62d50d",
+      "width": 6482,
+      "x": 19367,
+      "y": -2165,
+      "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4449,9 +4619,23 @@
       "name": "loweredPlatform",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "lowered",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "Jumpthru",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4493,6 +4677,354 @@
                       {
                         "x": 0,
                         "y": 5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "keyHitbox",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "000000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 446,
+                        "y": 0
+                      },
+                      {
+                        "x": 446,
+                        "y": 413
+                      },
+                      {
+                        "x": 0,
+                        "y": 413
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "painting",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "paintingKnocked",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "file.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 614,
+                        "y": 12
+                      },
+                      {
+                        "x": 614,
+                        "y": 553
+                      },
+                      {
+                        "x": 12,
+                        "y": 553
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "paperScroll",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "file (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 47
+                      },
+                      {
+                        "x": 575,
+                        "y": 47
+                      },
+                      {
+                        "x": 575,
+                        "y": 588
+                      },
+                      {
+                        "x": 34,
+                        "y": 588
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "paperTip",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Try knocking the painting over!",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 65,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Try knocking the painting over!",
+        "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 65,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "doorhitbox",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "0000002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 446,
+                        "y": 0
+                      },
+                      {
+                        "x": 446,
+                        "y": 413
+                      },
+                      {
+                        "x": 0,
+                        "y": 413
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bedroomWallpaper",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "blank-white-7sn5o1woonmklx1h.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1124
+                      },
+                      {
+                        "x": 0,
+                        "y": 1124
                       }
                     ]
                   ]
@@ -4598,6 +5130,9 @@
         "objectName": "hallwayBackground"
       },
       {
+        "objectName": "bedroomWallpaper"
+      },
+      {
         "objectName": "bookshelfObject"
       },
       {
@@ -4616,6 +5151,9 @@
         "objectName": "blackFog"
       },
       {
+        "objectName": "keyHitbox"
+      },
+      {
         "objectName": "key"
       },
       {
@@ -4626,6 +5164,18 @@
       },
       {
         "objectName": "loweredPlatform"
+      },
+      {
+        "objectName": "paperScroll"
+      },
+      {
+        "objectName": "paperTip"
+      },
+      {
+        "objectName": "painting"
+      },
+      {
+        "objectName": "doorhitbox"
       }
     ]
   },
@@ -4725,6 +5275,22 @@
                 "freeFollowCamera",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "paperTip"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "doorhitbox"
               ]
             }
           ]
@@ -5396,18 +5962,6 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "DrPepper",
-                    "button",
-                    "",
-                    "",
-                    ""
-                  ]
                 }
               ]
             }
@@ -5551,19 +6105,6 @@
                   "parameters": [
                     "button",
                     "Players",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "DrPepper",
-                    "button",
                     "",
                     "",
                     ""
@@ -8040,22 +8581,14 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "CollisionNP"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "button2",
-                "Players",
-                "",
-                "",
-                ""
-              ]
-            }
+          "parameters": [
+            "button2",
+            "Players",
+            "",
+            "",
+            ""
           ]
         }
       ],
@@ -8141,6 +8674,17 @@
                 "=",
                 "\"press\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "loweredPlatform",
+                "lowered",
+                "True",
+                ""
+              ]
             }
           ]
         }
@@ -8201,7 +8745,18 @@
           "parameters": [
             "button2",
             "Pressed",
-            "True",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "loweredPlatform",
+            "lowered",
+            "False",
             ""
           ]
         }
@@ -8233,6 +8788,42 @@
             "keyCollected",
             "True",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Players",
+            "paperScroll",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "paperTip",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "paperScroll"
           ]
         }
       ]
@@ -8274,13 +8865,295 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "key"
+          ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "loweredPlatform",
+            "lowered",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "loweredPlatform",
+                "<",
+                "580"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "loweredPlatform",
+                "0",
+                "300",
+                "0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "loweredPlatform",
+            "lowered",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "loweredPlatform",
+                ">",
+                "-1079"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "loweredPlatform",
+                "0",
+                "-300",
+                "0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Painting Mechanic Code",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "CatPlayer",
+            "painting",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "painting",
+            "paintingKnocked",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "painting",
+            "paintingKnocked",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "painting",
+                "<",
+                "2000"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "painting",
+                "0",
+                "800",
+                "0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Master Bedroom Teleport",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Moves both players to the bedroom if door is opened, change the coordinates of the players if making changes to bedroom location or size\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "CatPlayer",
+                "doorhitbox",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "DogPlayer",
+                "doorhitbox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "doorBackground",
+                "doorOpen",
+                "True",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "CatPlayer",
+            "=",
+            "20500",
+            "=",
+            "640"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "DogPlayer",
+            "=",
+            "20000",
+            "=",
+            "640"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
