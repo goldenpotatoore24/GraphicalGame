@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.10001786170017596,
+    "zoomFactor": 0.13480471535735364,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1055,7 +1055,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 2668,
+      "height": 3399,
       "keepRatio": true,
       "layer": "",
       "name": "blackFog",
@@ -1191,14 +1191,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 3225,
+      "height": 3373,
       "keepRatio": true,
       "layer": "",
       "name": "Wall",
       "persistentUuid": "0d803572-0faf-483d-a8e6-53e3fe0d9c40",
       "width": 179,
       "x": 25770,
-      "y": -2105,
+      "y": -2253,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -1216,7 +1216,7 @@
       "width": 509,
       "x": 19956,
       "y": 192,
-      "zOrder": 47,
+      "zOrder": 58,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1225,15 +1225,83 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 3214,
+      "height": 3206,
       "keepRatio": true,
       "layer": "",
       "name": "bedroomWallpaper",
-      "persistentUuid": "b3952d8b-0747-4f96-95c3-e1256a62d50d",
-      "width": 6482,
-      "x": 19367,
-      "y": -2165,
+      "persistentUuid": "f19d02c9-6989-4057-96a5-724caa4a317b",
+      "width": 6448,
+      "x": 19412,
+      "y": -2178,
       "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 911,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bedBackground",
+      "persistentUuid": "fc89badd-620c-4966-b12c-98fda6cd69ad",
+      "width": 1496,
+      "x": 21974,
+      "y": 285,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 205,
+      "keepRatio": true,
+      "layer": "",
+      "name": "lButton",
+      "persistentUuid": "9a92fc72-ebfc-4519-907b-c0efee4e3dc2",
+      "width": 336,
+      "x": 23774,
+      "y": 798,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 205,
+      "keepRatio": true,
+      "layer": "",
+      "name": "rButton",
+      "persistentUuid": "718c4340-231f-43ac-8a3e-387e3db13bfa",
+      "width": 336,
+      "x": 25180,
+      "y": 796,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 598,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bookshelfObject",
+      "persistentUuid": "a7b7f92f-b5ab-458f-adff-8d0ef3627694",
+      "width": 1184,
+      "x": 22119,
+      "y": 467,
+      "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4629,10 +4697,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "Jumpthru",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Jumpthru",
           "yGrabOffset": 0
         }
       ],
@@ -4976,9 +5044,20 @@
       ]
     },
     {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "bedroomWallpaper",
+      "texture": "179c89838f60b0d421eda2adbcfd3997.jpg",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "bedroomWallpaper",
+      "name": "bedBackground",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4995,7 +5074,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "blank-white-7sn5o1woonmklx1h.jpg",
+                  "image": "bedroom-furniture-pixel-art-set-260nw-2218659083-removebg-preview_upscaled.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5011,20 +5090,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 28,
+                        "y": 38
                       },
                       {
-                        "x": 1920,
-                        "y": 0
+                        "x": 250,
+                        "y": 38
                       },
                       {
-                        "x": 1920,
-                        "y": 1124
+                        "x": 250,
+                        "y": 171
                       },
                       {
-                        "x": 0,
-                        "y": 1124
+                        "x": 28,
+                        "y": 171
                       }
                     ]
                   ]
@@ -5130,9 +5209,6 @@
         "objectName": "hallwayBackground"
       },
       {
-        "objectName": "bedroomWallpaper"
-      },
-      {
         "objectName": "bookshelfObject"
       },
       {
@@ -5176,6 +5252,12 @@
       },
       {
         "objectName": "doorhitbox"
+      },
+      {
+        "objectName": "bedroomWallpaper"
+      },
+      {
+        "objectName": "bedBackground"
       }
     ]
   },
