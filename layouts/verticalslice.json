@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.11805730185030013,
+    "zoomFactor": 0.06944547167664757,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -97,26 +97,14 @@
       "name": "Cat_Is_Pushing_DP4",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "Sugar_On_Platform",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1079,
-      "keepRatio": true,
-      "layer": "Background",
-      "name": "Sky__CANNOT_USE_THIS_",
-      "persistentUuid": "e852f84d-9375-443b-8c3d-95e1617df0c9",
-      "width": 1916,
-      "x": 2,
-      "y": -3,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -1754,7 +1742,7 @@
       "layer": "",
       "name": "PulleyTriggerRight",
       "persistentUuid": "88214abf-6671-4fec-add0-635d6a22e8b1",
-      "width": 891,
+      "width": 700,
       "x": 6872,
       "y": -242,
       "zOrder": 91,
@@ -1839,8 +1827,8 @@
       "name": "Sugar",
       "persistentUuid": "41a1d1a4-ff09-4352-ab99-4dd1e0998d00",
       "width": 287,
-      "x": 8021,
-      "y": -1622,
+      "x": 8013,
+      "y": -1629,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1887,8 +1875,8 @@
       "name": "LivingRoomText3",
       "persistentUuid": "a3e6001a-c035-4ae9-adbf-fd1ad4d394db",
       "width": 0,
-      "x": 9221,
-      "y": 758,
+      "x": 9214,
+      "y": 702,
       "zOrder": 95,
       "numberProperties": [],
       "stringProperties": [],
@@ -1903,75 +1891,32 @@
       "name": "LivingRoomText4",
       "persistentUuid": "686f3b65-6732-42c2-a042-efbb0f04441e",
       "width": 0,
-      "x": 6927,
-      "y": -336,
+      "x": 6920,
+      "y": -385,
       "zOrder": 96,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 1050,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "New_Sky",
+      "persistentUuid": "df3551ab-8aac-4cf2-b766-356ea1a1ac16",
+      "width": 1866,
+      "x": -13,
+      "y": 13,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Sky__CANNOT_USE_THIS_",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "1000_F_606544986_2zeORxAa7x0pnUdfXNlBZof4QOB7qB44.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 563
-                      },
-                      {
-                        "x": 0,
-                        "y": 563
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -2432,7 +2377,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Sugar",
       "preScale": 20,
@@ -2485,11 +2430,11 @@
                       },
                       {
                         "x": 33,
-                        "y": 26
+                        "y": 22.5
                       },
                       {
                         "x": 0,
-                        "y": 26
+                        "y": 22.5
                       }
                     ]
                   ]
@@ -6527,14 +6472,71 @@
         "characterSize": 45,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "New_Sky",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Clouds 4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 576,
+                        "y": 0
+                      },
+                      {
+                        "x": 576,
+                        "y": 324
+                      },
+                      {
+                        "x": 0,
+                        "y": 324
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "Sky__CANNOT_USE_THIS_"
-      },
       {
         "objectName": "Scene"
       },
@@ -6723,6 +6725,9 @@
       },
       {
         "objectName": "sign"
+      },
+      {
+        "objectName": "New_Sky"
       }
     ]
   },
@@ -8171,6 +8176,16 @@
                     "True",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Sugar_On_Platform",
+                    "True",
+                    "T"
+                  ]
                 }
               ]
             }
@@ -8286,6 +8301,17 @@
                 "DogPlayer",
                 "<",
                 "Sugar.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "DogPlayer",
+                "Sugar",
+                "3000",
+                ""
               ]
             }
           ],
@@ -8431,6 +8457,17 @@
                 "DogPlayer",
                 ">",
                 "Sugar.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "DogPlayer",
+                "Sugar",
+                "3000",
+                ""
               ]
             }
           ],
@@ -8620,6 +8657,99 @@
               },
               "parameters": [
                 "Sugar"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Sugar_On_Platform",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Sugar",
+                "floor",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Sugar",
+                "Shelf",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Sugar",
+                "Platform_Right",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Sugar",
+                "Platform_Left",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Sugar",
+                "floor2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Sugar",
+                "0",
+                "424",
+                "0"
               ]
             }
           ]
@@ -12534,6 +12664,39 @@
                     "value": "PosY"
                   },
                   "parameters": [
+                    "Platform_Left",
+                    "<",
+                    "-211"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Platform_Left",
+                    "=",
+                    "-213"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
                     "Platform_Right",
                     "<",
                     "905"
@@ -12902,121 +13065,6 @@
               "parameters": [
                 "Pully_Should_Move",
                 "Toggle",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Sugar",
-                    ">",
-                    "5500"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "Sugar",
-                        ">",
-                        "-450"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "Sugar_Knocked_Down",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Sugar",
-                        "0",
-                        "424",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Sugar",
-                ">",
-                "5500"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosY"
-              },
-              "parameters": [
-                "Sugar",
-                ">",
-                "700"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "Sugar"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Sugar_Knocked_Down",
-                "True",
                 ""
               ]
             }
