@@ -5483,6 +5483,16 @@
       "name": "freeFollowCamera",
       "type": "boolean",
       "value": true
+    },
+    {
+      "name": "Dog_Room_Count",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Cat_Room_Count",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
