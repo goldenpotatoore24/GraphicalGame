@@ -9241,6 +9241,14 @@
                 "",
                 "\"UI\""
               ]
+            },
+            {
+              "type": {
+                "value": "MontreSouris"
+              },
+              "parameters": [
+                ""
+              ]
             }
           ]
         },
@@ -9272,6 +9280,14 @@
               "parameters": [
                 "",
                 "\"UI\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CacheSouris"
+              },
+              "parameters": [
+                ""
               ]
             }
           ]
