@@ -1417,6 +1417,24 @@
         "name": "Clouds 4.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dog_Picture.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dog_Picture.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cat_Picture.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cat_Picture.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
