@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.14890670595875313,
+    "zoomFactor": 0.13935037485557805,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -9636,7 +9636,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Water Push Code",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10015,7 +10014,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Cat Pushable Object Code",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14716,7 +14714,7 @@
               "parameters": [
                 "bedBackground",
                 "<",
-                "2000"
+                "3000"
               ]
             }
           ],
